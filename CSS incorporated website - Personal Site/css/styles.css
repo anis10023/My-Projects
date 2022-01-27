@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.gradient-container {
+  background-image: linear-gradient(black, #E02401);
+}
+
+.top-container {
+  display: block inline;
+  background-color: #000000;
+  padding: 20px 0px;
+  background-image: url('images/volcano.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1000px;
+}
+
+h1 {
+  font-family: 'Sofia', cursive;
+  font-size:  5rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #FD3A4A;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+  color: white;
+}
+
+hr{
+  border-style: dotted;
+  width: 3rem;
+  border-width: 9px;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+
+  color: white;
+}
+
+.Title {
+  color: black;
+  position: relative;
+  bottom: 60px;
+}
+
+.pro {
+  text-decoration: underline black;
+}
+
+.title-container {
+  color: #3D0000;
+  font-size: 1.5rem;
+  margin-right: 50px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 20px 0;
+
+}
+.skills-heading1{
+  color:#FF355E
+}
+
+.skills-heading2{
+  color:#FD5B78
+
+}
+.skills-heading3{
+  color: #FC80A5;
+  padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.touch-heading{
+  color: black;
+}
+
+.skill-row{
+  width: 50%;
+  display: inline-block;
+  margin: 70px auto;
+  text-align: left;
+  line-height: 2.5rem;
+
+
+}
+.skills{
+  padding-top: 50px;
+
+}
+.skill-text{
+  padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.profile{
+  width: 80%;
+  display: inline-block;
+  margin: 70px auto;
+  line-height: 3.5rem;
+
+}
+
+.me{
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+}
+.coding-img{
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin: 0 30px;
+
+}
+.gym-img{
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin: 0 30px;
+
+}
+
+
+.bottom-container {
+  display: block inline;
+  background-image: linear-gradient(#E02401, black);
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+}
+
+.btn {
+  background: #f52746;
+  background-image: -webkit-linear-gradient(top, #f52746, #5e0000);
+  background-image: -moz-linear-gradient(top, #f52746, #5e0000);
+  background-image: -ms-linear-gradient(top, #f52746, #5e0000);
+  background-image: -o-linear-gradient(top, #f52746, #5e0000);
+  background-image: linear-gradient(to bottom, #f52746, #5e0000);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff2424;
+  background-image: -webkit-linear-gradient(top, #ff2424, #730000);
+  background-image: -moz-linear-gradient(top, #ff2424, #730000);
+  background-image: -ms-linear-gradient(top, #ff2424, #730000);
+  background-image: -o-linear-gradient(top, #ff2424, #730000);
+  background-image: linear-gradient(to bottom, #ff2424, #730000);
+  text-decoration: none;
+}
+
+
+.contact-me{
+  display: inline-block;
+  width: 50%;
+  padding: 50px;
+}
+
+.footer-link {
+  color: #3D0000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 16px 0 0;
+  padding: 50px 40px 0;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: white;
+}
+
+.copyright{
+  padding-top: 15px;
+  font-size: 0.75rem;
+}
